@@ -1,11 +1,14 @@
 import React from 'react';
-import { SafeAreaView } from 'react-native';
-import HomeScreen from './src/screens/HomeScreen';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import Router from './src/navigation/Router';
 
 export default function App() {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <HomeScreen />
-    </SafeAreaView>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <SafeAreaProvider>
+        <Router />
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
   );
 }
