@@ -1,0 +1,32 @@
+export const laguData = [
+  {
+    id: 1,
+    judul: 'Ampar-Ampar Pisang',
+    provinsi: 'Kalimantan Selatan',
+    pencipta: 'Lagu Daerah Tradisional',
+    deskripsi: 'Lagu ini sering dinyanyikan dalam permainan tradisional anak-anak.',
+    gambar: require('../assets/images/KalimantanSelatan.jpg'),
+    populer: true,
+    terbaru: false,
+  },
+  {
+    id: 2,
+    judul: 'Soleram',
+    provinsi: 'Riau',
+    pencipta: 'Anak Negeri Riau',
+    deskripsi: 'Lagu pengantar tidur yang terkenal dengan lirik lembut dan mendalam.',
+    gambar: require('../assets/images/Riau.jpg'),
+    populer: true,
+    terbaru: false,
+  },
+  {
+    id: 3,
+    judul: 'Yamko Rambe Yamko',
+    provinsi: 'Papua',
+    pencipta: 'Tidak diketahui',
+    deskripsi: 'Lagu penuh semangat dengan lirik bahasa daerah Papua.',
+    gambar: require('../assets/images/Papua.jpg'),
+    populer: true,
+    terbaru: false,
+  },
+];

@@ -10,7 +10,7 @@ import {
   ActivityIndicator,
   Pressable,
 } from 'react-native';
-import LaguCard from '../components/LaguCard';
+import LaguCard from './components/LaguCard';
 import { useNavigation } from '@react-navigation/native';
 
 // Contoh fetch data dari mockAPI (ganti URL sesuai milikmu)
